@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34e2681-4d48-4dd2-9fca-e0e8a328ad3c" name="Changes" comment="" />
+    <list default="true" id="b34e2681-4d48-4dd2-9fca-e0e8a328ad3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dateien Zeiterfassung Schwimmbad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dateien Zeiterfassung Schwimmbad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dateien Zeiterfassung Schwimmbad/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dateien Zeiterfassung Schwimmbad/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zeiterfassung.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zeiterfassung.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jbaur1986-crypto"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jbaur1986-crypto/FH_Uebungen.git",
+    "accountId": "94c2d18e-d0d8-4ec8-8e09-7de961c363a2"
+  }
+}]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -27,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Dateien Zeiterfassung Schwimmbad.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -71,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768417971941</updated>
-      <workItem from="1768417974890" duration="9757000" />
+      <workItem from="1768417974890" duration="13184000" />
     </task>
     <task id="LOCAL-00001" summary="Teilversion01">
       <option name="closed" value="true" />
@@ -81,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768468711090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version01">
+      <option name="closed" value="true" />
+      <created>1768469162324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768469162324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +117,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Teilversion01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teilversion01" />
+    <MESSAGE value="Version01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
