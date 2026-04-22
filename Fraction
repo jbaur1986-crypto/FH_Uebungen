@@ -1,1 +1,68 @@
-Quick fraction exercise
+namespace Fraction;
+
+class Fraction
+{
+    private int _numerator;
+    private int _denominator;
+
+    public int Numerator => _numerator;
+
+    public int Denominator => _denominator;
+
+    public Fraction(int numerator, int denominator)
+    {
+        if (denominator == 0) throw new DivideByZeroException ("Divide by Zero not allowed.");
+        
+        _numerator = numerator;
+        _denominator = denominator;
+    }
+    public Fraction() : this(0,1){ }
+    public Fraction(int numerator) : this(numerator,1){ }
+
+    public Fraction Add(Fraction fraction)
+    {
+        if (_denominator == fraction._denominator)
+        {
+            return new Fraction(_numerator + fraction._numerator, _denominator);
+           
+        }
+        
+        int sumDenominator = _denominator*fraction._denominator;
+        int sumNumerator = _numerator*fraction._denominator+fraction._numerator*_denominator;
+
+        for (int i = sumDenominator; i > 0; i--)
+        {
+            if (sumDenominator % i == 0 && sumNumerator % i ==0)
+            {
+                sumNumerator= sumNumerator / i;
+                sumDenominator = sumDenominator / i;
+                break;
+            }
+        }
+        return new Fraction(sumNumerator, sumDenominator);
+    }
+    
+    public static Fraction operator+(Fraction frac1, Fraction frac2)
+    {
+        
+        Fraction frac3 = new Fraction();
+        frac3 = frac1.Add(frac2);
+        return frac3;
+    }
+
+    public override string ToString()
+    {
+        return $"{Numerator}/{Denominator}";
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        Fraction frac1 = new Fraction(3,4);
+        Fraction frac2 = new Fraction(5,6);
+        Fraction frac3 = frac1+frac2;
+        Console.WriteLine($"{frac3}");
+        //Working
+    }
+}
